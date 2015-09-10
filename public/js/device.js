@@ -12,6 +12,7 @@
  *
  * Contributors:
  *   Bryan Boyd - Initial implementation
+ * * Markus van Kempen - mvk@ca.ibm.com - some changes e.g subscbtion topic
  *******************************************************************************/
 (function(window){
     var ax = 0, ay = 0, az = 0, oa = 0, ob = 0, og = 0;
