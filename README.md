@@ -1,7 +1,7 @@
 # mvk-iot-html-phone
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)]
-(https://bluemix.net/deploy?repository=https://hub.jazz.net/project/mvk/demophone)
+(https://bluemix.net/deploy?repository=https://hub.jazz.net/project/mvk/mvkphone)
 
 ## base  on
 https://github.com/IBM-Bluemix/IOT-HTML5-Phone-Application
