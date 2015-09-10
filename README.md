@@ -7,8 +7,9 @@
 https://github.com/IBM-Bluemix/IOT-HTML5-Phone-Application
 ##
 
-## Added Subscription Topic: iot-2/cmd/+/fmt/json
-## Send message to d.Color to change back ground color
+Added Subscription Topic: iot-2/cmd/+/fmt/json
+
+Send message to d.Color to change back ground color
 
 ### Payload Example
 {"d":{
