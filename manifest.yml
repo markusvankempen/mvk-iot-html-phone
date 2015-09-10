@@ -1,0 +1,19 @@
+---
+declared-services:
+  iot-phone-cloudant-cloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan: Shared
+  iot-phone-iotf-service:
+    label: iotf-service
+    plan: iotf-service-free
+applications:
+- services:
+  - iot-phone-cloudant-cloudantNoSQLDB
+  - iot-phone-iotf-service
+  host: demophone
+  name: demophone
+  disk: 128M
+  command: node app.js
+  path: .
+  memory: 128M
+  instances: 1
