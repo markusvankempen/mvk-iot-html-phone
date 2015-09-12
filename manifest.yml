@@ -1,4 +1,3 @@
----
 declared-services:
   iot-phone-cloudant-cloudantNoSQLDB:
     label: cloudantNoSQLDB
