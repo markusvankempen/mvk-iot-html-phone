@@ -3,9 +3,7 @@
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)]
 (https://bluemix.net/deploy?repository=https://github.com/markusvankempen/mvk-iot-html-phone)
 ### mvk iot html phone demo app
-
-
-### markus van kempen - mvk@ca.ibm.om
+markus van kempen - mvk@ca.ibm.om
 
 ## base  on
 https://github.com/IBM-Bluemix/IOT-HTML5-Phone-Application
