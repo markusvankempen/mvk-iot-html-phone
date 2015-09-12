@@ -12,13 +12,13 @@
  *
  * Contributors:
  *   Bryan Boyd - Initial implementation 
- * Markus van Kempen - mvk@ca.ibm.com - some changes
+ *   Markus van Kempen - mvk@ca.ibm.com - some changes
  -->
 
 <!DOCTYPE html>
 <html>
 <head>
-  <title>IoT Phone</title>
+  <title>MVK IoT MQTT Phone - mvk@ca.ibm.com</title>
   <link rel='stylesheet' href='/stylesheets/device.css'/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
@@ -29,8 +29,7 @@
 	
 	<div class="outer-main">
 		<div id="main" class="main">
-			<h1>Your device ID:</h1>
-			<h2><span id="deviceId"></span></h2>
+			<h3>Your device ID:<h2><span id="deviceId"></span></h3>
 			<p style="padding-top:10px">
     			<img id="connectionImage" src="/images/disconnected.svg" class="iot-connected-image" style="vertical-align:middle">
     			<span id="connection">Disconnected</span>
@@ -95,18 +94,7 @@
 //alert('test v1');
 
      document.bgColor='#000000';
-     document.body.style.background = 'red';
-     
-             $(function() {
-            var colors = ["#0099cc","#c0c0c0","#587b2e","#990000","#000000","#1C8200","#987baa","#981890","#AA8971","#1987FC","#99081E"];
-             
-            setInterval(function() { 
-                var bodybgarrayno = Math.floor(Math.random() * colors.length);
-                var selectedcolor = colors[bodybgarrayno];
-//                $("body").css("background",selectedcolor);
-            }, 30000);
-        })
-  
+     document.body.style.background = 'blue';
   
 </script>
 </html>
