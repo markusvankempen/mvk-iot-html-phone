@@ -222,7 +222,7 @@ var timerInterval;
 				connectDevice(client);
 
 
-				setInterval(publish, 100);
+				setInterval(publish, 1000);
 			},
 			error: function(xhr, status, error) {
 				if (xhr.status==403) {
